@@ -1,0 +1,352 @@
+/*Optimisé pour firefox et Safari*/
+
+@font-face {
+    font-family: 'JellykaDeliciousCakeRegular';
+    src: url('jellyka_delicious_cake-webfont.eot');
+    src: url('jellyka_delicious_cake-webfont.eot?#iefix') format('embedded-opentype'),
+         url('jellyka_delicious_cake-webfont.woff') format('woff'),
+         url('jellyka_delicious_cake-webfont.ttf') format('truetype'),
+         url('jellyka_delicious_cake-webfont.svg#JellykaDeliciousCakeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	margin: 0 ;
+	padding: 0 ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	text-align: center;
+	background: url(images/background.jpg) fixed left top #9C8456;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+	color: #3f341f;
+}
+
+h3 {
+	margin: 0.2em
+}
+
+
+/*------------------------------- ENTETE ---------------------------------*/
+
+#header {
+	height: 240px ;
+	margin: 0;
+ 	background-image: url("images/header1.png"), url("images/header2.png");
+	background-position: left center,right center;
+	background-repeat: no-repeat;
+	font-weight: bolder;
+}
+
+#header h1 {
+	font-family: "JellykaDeliciousCakeRegular", "Trebuchet MS", helvetica, sans-serif ;
+	font-size: 5em ;
+	color: #50442C ;
+	text-align: center;
+	line-height: 1em ;
+	text-shadow: 0.05 0.05em 0.01em black;
+	margin: 0.4em 0;
+}
+
+#header a:hover, #header a:active, #header a:visited {
+	color: #3f341f;
+}
+
+#subheader h2 {
+	font-size: 1.3em;
+	font-weight: bolder;
+	text-align: right;
+	padding-right: 2em;
+	font-variant: small-caps;
+}
+
+
+/*------------------------------- MENU ---------------------------------*/
+
+
+#menu {
+	height: 59px;
+	margin: 0;
+	padding: 0;
+	background: url("images/ribbon.png") repeat-x #9C8456;
+	line-height: 100%;
+	box-shadow: 0 0.2em 0.5em black;
+	-webkit-box-shadow: 0 0.2em 0.5em black;
+	-moz-box-shadow: 0 0.2em 0.5em black;
+	position: relative;
+	z-index: 1;
+}
+  
+  
+#menu li {
+	float: left ;
+    margin: 0 0.5em;
+    position: relative;
+    background: url("images/menu-sep.png") no-repeat right center transparent;
+}
+
+#menu a {
+	width: 12em;
+	line-height: 2.6em;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	color: #fcf1d9;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+    padding: 0.5em 1em;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+
+#menu li:hover>a {
+	color: #fff;
+}
+
+#menu .sousmenu {
+	display: none;
+	margin: 0;
+	padding: 0.3em 0;
+	width: 16em;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	border-radius: 0 0 0.6em 0.6em;
+	-webkit-border-radius: 0 0 0.6em 0.6em;
+	-moz-border-radius: 0 0 0.6em 0.6em;
+	box-shadow: 0 0.2em 1em black;
+	-webkit-box-shadow: 0 0.2em 1em black;
+	-moz-box-shadow: 0 0.2em 1em black;
+	list-style-type: none;
+}
+
+#menu .sousmenu li {
+ 	float: none;
+    margin: 0;
+    padding: 0; 
+    background: none;
+}
+
+#menu .sousmenu a {
+	color: #50442C;
+	text-shadow: none;
+}
+
+#menu li:hover > ul {
+	display: block;
+}
+
+#menu .sousmenu li:hover > a {
+	text-shadow: none;
+	color: #50442C;
+	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+#menu:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+/*------------------------------- CADRE DE CONTENU ---------------------------------*/
+
+#container
+{
+	margin: 0 auto;
+	width: 850px;
+	background: #efe7d7;
+	box-shadow: 0.2em 0 0.4em black;
+	-webkit-box-shadow: 0.2em 0 0.4em black;
+	-moz-box-shadow: 0.2em 0 0.4em black;
+	
+}
+
+#container a {
+	color: #384f2a;
+}
+
+/*------------------------------- FIL D'ARIANE ---------------------------------*/
+
+#ariane {
+	padding: 0.8em 1.2em;
+	text-align: left;
+	font-size: 1em;
+}
+
+#ariane em {
+	color: #535847;
+}
+
+#ariane a:hover {
+	text-decoration: underline ;
+}
+
+/*------------------------------- CONTENU ---------------------------------*/
+
+/*------------------------------- TITRE DE PAGE ---------------------------------*/
+
+#content {
+	padding: 0.8em 5em 1.5em;
+	text-align: justify;
+}
+
+#content h2 {
+	margin: 1em 2em;
+	padding-left: 4em ;
+	height: 100px;
+	line-height: 4em ;
+	font-family: "JellykaDeliciousCakeRegular", "Trebuchet MS", helvetica, sans-serif;
+	font-size: 2.5em ;
+	background: url("images/boutonh2.png") no-repeat left center ;
+}
+  
+#content h3 {
+	margin: 1em;
+}
+  
+/*------------------------------- ILLUSTRATION ---------------------------------*/
+.photo {
+	float: right;
+	padding-left: 5em;
+	background: #efe7d7;
+	display: table;
+	width: 0;
+	text-align: center;
+	}
+	
+.legend {
+	font-weight: bold;
+	}
+
+.photoacceuil {
+	float: left;
+	width: 350px;
+}
+ 
+/*------------------------------- TEXTE ---------------------------------*/
+
+.textaccueil {
+	float:right;
+	width: 350px;
+	text-indent: 2em;
+	font-size: 1.3em;
+	padding: 3em 0;
+}
+
+.sommaire {
+	width: 100%;
+}
+
+.sommaire li {
+	list-style-type: disc;
+}
+
+.sommaire a {
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+.text {
+	padding: 5px 0;
+}
+
+.text h3 {
+	padding: 4px 7px;
+	background-color: white;
+}
+ 
+.text p {
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+ 
+.text a {
+	color: #8a0 ;
+}
+
+.text a:hover
+{
+	color: #9b2;
+}
+
+.menu2 {
+	text-indent: 2em;
+}
+
+#content:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/*------------------------------- PIED DE PAGE ---------------------------------*/
+
+
+
+#footer {
+	height: 250px;
+	text-align: right;
+	border-top: dashed 0.2em #50442C;
+}
+
+#footer ul {
+	margin: 2em 0;
+	height: 59px;
+	line-height: 100%;
+	position: absolute;
+	z-index: 5;
+}
+
+#footer li {
+	float: left ;
+	height: 59px;
+    margin: 0 6em;
+    background: url("images/ribbon.png") repeat-x #9C8456;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+	-webkit-border-radius: 0.5em 0.5em 0.5em 0.5em;
+	-moz-border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0.2em 0.2em 0.4em black; /*ombre */
+	-webkit-box-shadow: 0.2em 0.2em 0.4em black;
+	-moz-box-shadow: 0.2em 0.2em 0.4em black;
+}
+
+#footer a {
+	margin: 0;
+    padding: 0 3em;
+	text-decoration: none;
+	line-height: 3.6em;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	color: #fcf1d9;
+	font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+#footer li:hover>a {
+	color: #fff;
+}
+
+
+#footer_decoration {
+	width: 100%;
+	height: 260px;
+	background: url("images/footer2.png") no-repeat center bottom;
+	left: -0.1em;
+	position: absolute;
+	z-index: 2;
+   }
