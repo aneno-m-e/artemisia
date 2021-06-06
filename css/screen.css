@@ -45,13 +45,13 @@ h3 {
 #header {
 	height: 240px ;
 	margin: 0;
- 	background-image: url("images/header1.png"), url("images/header2.png");
+ 	background-image: url("images/Header1.png"), url("images/Header2.png");
 	background-position: left center,right center;
 	background-repeat: no-repeat;
 	font-weight: bolder;
 }
 
-#header h1 {
+#header h1; a {
 	font-family: "JellykaDeliciousCakeRegular", "Trebuchet MS", helvetica, sans-serif ;
 	font-size: 5em ;
 	color: #50442C ;
